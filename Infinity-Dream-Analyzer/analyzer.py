@@ -1,10 +1,10 @@
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from memory.memory import add, load_memory
 from key import akey
 
-load_dotenv()
+#load_dotenv()
 
 # Prefer environment variable; fail fast if absent
 api_key = akey
